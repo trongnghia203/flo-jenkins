@@ -63,8 +63,8 @@ def get_secret():
 if __name__ == "__main__":
     secret = get_secret()
     secret_json = json.loads(secret)
-    print(secret)
-    print(secret_json)
+    # print(secret)
+    # print(secret_json)
     #
-    # for key, value in secret_json.items():
-    #     print(key + "=" + value)
+    for key, value in secret_json.items():
+        print(key + "=" + value)

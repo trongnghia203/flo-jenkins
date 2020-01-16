@@ -6,5 +6,4 @@ def get_server_instance():
     return server
 
 if __name__ == '__main__':
-    print get_server_instance().version
-    # print 
+    print get_server_instance().version 
